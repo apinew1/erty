@@ -4,7 +4,10 @@ jobs:
     steps:
       - git init
       - git add .
-      - git push -u origin main
+      - git commit -m "sampleFlow"
+      - git branch -M testFlow
+      - git remote add origin https://github.com/apinew1/erty.git
+      - git push -u origin testFlow
   world:
     steps:
       - echo "World"
