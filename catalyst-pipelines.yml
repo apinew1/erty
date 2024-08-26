@@ -3,7 +3,7 @@ jobs:
   hello:
     steps:
       - git config --global user.email "surendhar.v+apinew1@zohotest.com"
-      - git config --global user.password "Z123@crmtest"
+      - git config --global user.name "apinew1"
       - git init
       - git add .
       - git commit -m "sampleFlow"
