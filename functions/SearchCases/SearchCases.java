@@ -24,6 +24,7 @@ public class SearchCases implements CatalystAdvancedIOHandler {
 	HashMap<String,List<String>> map = new HashMap<String,List<String>>();
 	List<String> searchList1 = new ArrayList<String>();
 	List<String> searchList2 = new ArrayList<String>();
+	static String foreignKeySearch="1926000007668635";
 	@Override
     public void runner(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		JSONObject jsonObject = new JSONObject();
@@ -369,17 +370,17 @@ public class SearchCases implements CatalystAdvancedIOHandler {
 		String value="";
 		try {
 			ZCSearchDetails search = ZCSearchDetails.getInstance();
-			search.setSearch("1926000007668635");
+			search.setSearch(foreignKeySearch);
 			searchList1.add("FKval");
 			map.put("SearchNew", searchList1);
 			search.setSearchTableColumns(map);
 			ArrayList<ZCRowObject> rowList = ZCSearch.getInstance().executeSearchQuery(search);
 			if(rowList.size()!=1) {
-				value+="Expected rowlist size not obtained for ForeignKey search. searched word - 1926000007668635 , searched column -  FKval";
+				value+="Expected rowlist size not obtained for ForeignKey search. searched word - "+foreignKeySearch+" , searched column -  FKval";
 				flag=true;
 			}
 			else {
-				value+="Expected rowlist size obtained for ForeignKey search. searched word - 1926000007668635 , searched column -  FKval";
+				value+="Expected rowlist size obtained for ForeignKey search. searched word - "+foreignKeySearch+" , searched column -  FKval";
 			}
 			searchList1.clear();
 			searchList2.clear();

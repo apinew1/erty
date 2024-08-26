@@ -68,7 +68,7 @@ async function ajaxCall1() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -82,7 +82,7 @@ async function ajaxCall1() {
                         }
                     };
                     var functions = catalyst.function;
-                    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+                    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
                     var functionPromise = functionObject.execute(config);
                     functionPromise
                         .then((response) => {
@@ -138,7 +138,7 @@ async function ajaxCall2() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -163,7 +163,7 @@ async function ajaxCall3() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -188,7 +188,7 @@ async function ajaxCall4() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -213,7 +213,7 @@ async function ajaxCall5() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -238,7 +238,7 @@ async function ajaxCall6() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -265,7 +265,7 @@ async function ajaxCall7() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -290,7 +290,7 @@ async function ajaxCall8() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -315,7 +315,7 @@ async function ajaxCall9() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -340,7 +340,7 @@ async function ajaxCall10() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -365,7 +365,7 @@ async function ajaxCall96() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -390,7 +390,7 @@ async function ajaxCall97() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -415,7 +415,7 @@ async function ajaxCall98() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343734); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("catalystAutomationProject"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -440,7 +440,7 @@ async function ajaxCall11() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343727); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("AuthenticationCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -454,7 +454,7 @@ async function ajaxCall11() {
                         }
                     };
                     var functions = catalyst.function;
-                    var functionObject = functions.functionId(1926000004343727); //can pass Function Id or Function Name as argument
+                    var functionObject = functions.functionId("AuthenticationCases"); //can pass Function Id or Function Name as argument
                     var functionPromise = functionObject.execute(config);
                     functionPromise
                         .then((response) => {
@@ -511,7 +511,7 @@ async function ajaxCall12() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343727); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("AuthenticationCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -536,7 +536,7 @@ async function ajaxCall13() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343727); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("AuthenticationCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -550,7 +550,7 @@ async function ajaxCall13() {
                         }
                     };
                     var functions = catalyst.function;
-                    var functionObject = functions.functionId(1926000004343727); //can pass Function Id or Function Name as argument
+                    var functionObject = functions.functionId("AuthenticationCases"); //can pass Function Id or Function Name as argument
                     var functionPromise = functionObject.execute(config);
                     functionPromise
                         .then((response) => {
@@ -607,7 +607,7 @@ async function ajaxCall14() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343727); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("AuthenticationCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -632,7 +632,7 @@ async function ajaxCall15() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343713); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CacheCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -657,7 +657,7 @@ async function ajaxCall16() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343713); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CacheCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -682,7 +682,7 @@ async function ajaxCall17() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343713); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CacheCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -707,7 +707,7 @@ async function ajaxCall18() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343713); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CacheCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -732,7 +732,7 @@ async function ajaxCall19() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343713); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CacheCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -757,7 +757,7 @@ async function ajaxCall20() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343713); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CacheCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -782,7 +782,7 @@ async function ajaxCall21() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343713); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CacheCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -806,7 +806,7 @@ async function ajaxCall22() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343706); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CronCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -831,7 +831,7 @@ async function ajaxCall23() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343706); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CronCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -856,7 +856,7 @@ async function ajaxCall24() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343706); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CronCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -881,7 +881,7 @@ async function ajaxCall25() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343706); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CronCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -906,7 +906,7 @@ async function ajaxCall26() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343706); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CronCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -931,7 +931,7 @@ async function ajaxCall27() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343706); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CronCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -955,7 +955,7 @@ async function ajaxCall62() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343706); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CronCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -981,7 +981,7 @@ async function ajaxCall28() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343720); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("FileStore"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -995,7 +995,7 @@ async function ajaxCall28() {
                         }
                     };
                     var functions = catalyst.function;
-                    var functionObject = functions.functionId(1926000004343720); //can pass Function Id or Function Name as argument
+                    var functionObject = functions.functionId("FileStore"); //can pass Function Id or Function Name as argument
                     var functionPromise = functionObject.execute(config);
                     functionPromise
                         .then((response) => {
@@ -1052,7 +1052,7 @@ async function ajaxCall29() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343720); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("FileStore"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1078,7 +1078,7 @@ async function ajaxCall30() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343720); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("FileStore"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1104,7 +1104,7 @@ async function ajaxCall31() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343720); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("FileStore"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1130,7 +1130,7 @@ async function ajaxCall32() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343720); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("FileStore"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1156,7 +1156,7 @@ async function ajaxCall33() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343720); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("FileStore"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1181,7 +1181,7 @@ async function ajaxCall34() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343678); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("FunctionCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1205,7 +1205,7 @@ async function ajaxCall35() {
     // "args":{"case":"testCase35","name":name}
     // };
     // var functions = catalyst.function;
-    // var functionObject = functions.functionId(1926000004343678); //can pass Function Id or Function Name as argument
+    // var functionObject = functions.functionId("FunctionCases"); //can pass Function Id or Function Name as argument
     // var functionPromise = functionObject.execute(config); await functionPromise;
     // functionPromise
     // .then((response) => {
@@ -1250,7 +1250,7 @@ async function ajaxCall36() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343657); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("MailCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1276,7 +1276,7 @@ async function ajaxCall37() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343657); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("MailCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1302,7 +1302,7 @@ async function ajaxCall38() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343657); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("MailCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1327,7 +1327,7 @@ async function ajaxCall39() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343671); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("SearchCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1354,7 +1354,7 @@ async function ajaxCall40() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343671); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("SearchCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1380,7 +1380,7 @@ async function ajaxCall41() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343671); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("SearchCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1406,7 +1406,7 @@ async function ajaxCall42() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343671); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("SearchCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1432,7 +1432,7 @@ async function ajaxCall43() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343671); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("SearchCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1458,7 +1458,7 @@ async function ajaxCall88() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343671); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("SearchCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1484,7 +1484,7 @@ async function ajaxCall89() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343671); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("SearchCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1510,7 +1510,7 @@ async function ajaxCall90() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343671); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("SearchCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1534,7 +1534,7 @@ async function ajaxCall44() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1560,7 +1560,7 @@ async function ajaxCall45() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1586,7 +1586,7 @@ async function ajaxCall46() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1612,7 +1612,7 @@ async function ajaxCall47() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1638,7 +1638,7 @@ async function ajaxCall48() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1664,7 +1664,7 @@ async function ajaxCall49() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1690,7 +1690,7 @@ async function ajaxCall50() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1716,7 +1716,7 @@ async function ajaxCall51() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1742,7 +1742,7 @@ async function ajaxCall52() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1768,7 +1768,7 @@ async function ajaxCall53() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1794,7 +1794,7 @@ async function ajaxCall54() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1818,7 +1818,7 @@ async function ajaxCall63() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1844,7 +1844,7 @@ async function ajaxCall64() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1870,7 +1870,7 @@ async function ajaxCall65() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1896,7 +1896,7 @@ async function ajaxCall66() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1922,7 +1922,7 @@ async function ajaxCall67() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1948,7 +1948,7 @@ async function ajaxCall68() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -1974,7 +1974,7 @@ async function ajaxCall69() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2000,7 +2000,7 @@ async function ajaxCall70() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2026,7 +2026,7 @@ async function ajaxCall71() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2052,7 +2052,7 @@ async function ajaxCall72() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2078,7 +2078,7 @@ async function ajaxCall73() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2104,7 +2104,7 @@ async function ajaxCall74() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2130,7 +2130,7 @@ async function ajaxCall75() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2156,7 +2156,7 @@ async function ajaxCall76() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2182,7 +2182,7 @@ async function ajaxCall77() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2208,7 +2208,7 @@ async function ajaxCall78() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2234,7 +2234,7 @@ async function ajaxCall79() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2260,7 +2260,7 @@ async function ajaxCall80() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2286,7 +2286,7 @@ async function ajaxCall81() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2312,7 +2312,7 @@ async function ajaxCall82() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2337,7 +2337,7 @@ async function ajaxCall83() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2362,7 +2362,7 @@ async function ajaxCall84() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2387,7 +2387,7 @@ async function ajaxCall85() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2412,7 +2412,7 @@ async function ajaxCall86() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2438,7 +2438,7 @@ async function ajaxCall87() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2464,7 +2464,7 @@ async function ajaxCall91() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2490,7 +2490,7 @@ async function ajaxCall92() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2514,7 +2514,7 @@ async function ajaxCall93() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2540,7 +2540,7 @@ async function ajaxCall94() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2566,7 +2566,7 @@ async function ajaxCall95() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343692); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZCQLCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2596,7 +2596,7 @@ async function ajaxCall55() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2622,7 +2622,7 @@ async function ajaxCall56() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2648,7 +2648,7 @@ async function ajaxCall57() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2674,7 +2674,7 @@ async function ajaxCall58() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2700,7 +2700,7 @@ async function ajaxCall59() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2726,7 +2726,7 @@ async function ajaxCall60() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2752,7 +2752,7 @@ async function ajaxCall61() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config); await functionPromise;
     functionPromise
         .then((response) => {
@@ -2779,7 +2779,7 @@ async function ajaxCall61() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000006254260); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CircuitsCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config);
     await functionPromise;
     functionPromise
@@ -2802,7 +2802,7 @@ async function ajaxCall61() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000006254260); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("CircuitsCases"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config);
     await functionPromise;
     functionPromise
@@ -2826,7 +2826,7 @@ async function ajaxCall101() {
        }
    };
    var functions = catalyst.function;
-   var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+   var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
    var functionPromise = functionObject.execute(config);
    await functionPromise;
    functionPromise
@@ -2849,7 +2849,7 @@ async function ajaxCall102() {
        }
    };
    var functions = catalyst.function;
-   var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+   var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
    var functionPromise = functionObject.execute(config);
    await functionPromise;
    functionPromise
@@ -2872,7 +2872,7 @@ async function ajaxCall103() {
        }
    };
    var functions = catalyst.function;
-   var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+   var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
    var functionPromise = functionObject.execute(config);
    await functionPromise;
    functionPromise
@@ -2895,7 +2895,7 @@ async function ajaxCall104() {
        }
    };
    var functions = catalyst.function;
-   var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+   var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
    var functionPromise = functionObject.execute(config);
    await functionPromise;
    functionPromise
@@ -2918,7 +2918,7 @@ async function ajaxCall105() {
        }
    };
    var functions = catalyst.function;
-   var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+   var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
    var functionPromise = functionObject.execute(config);
    await functionPromise;
    functionPromise
@@ -2941,7 +2941,7 @@ async function ajaxCall106() {
        }
    };
    var functions = catalyst.function;
-   var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+   var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
    var functionPromise = functionObject.execute(config);
    await functionPromise;
    functionPromise
@@ -2964,7 +2964,7 @@ async function ajaxCall107() {
        }
    };
    var functions = catalyst.function;
-   var functionObject = functions.functionId(1926000004343650); //can pass Function Id or Function Name as argument
+   var functionObject = functions.functionId("ZiaCases"); //can pass Function Id or Function Name as argument
    var functionPromise = functionObject.execute(config);
    await functionPromise;
    functionPromise
@@ -3065,7 +3065,7 @@ function mailSend() {
         }
     };
     var functions = catalyst.function;
-    var functionObject = functions.functionId(1926000004343643); //can pass Function Id or Function Name as argument
+    var functionObject = functions.functionId("SendMail"); //can pass Function Id or Function Name as argument
     var functionPromise = functionObject.execute(config);
     functionPromise
         .then((response) => {

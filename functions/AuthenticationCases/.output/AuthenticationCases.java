@@ -28,6 +28,7 @@ public class AuthenticationCases implements CatalystAdvancedIOHandler {
 	private static final Logger LOGGER = Logger.getLogger(AuthenticationCases.class.getName());
 	static String GET = "GET";
 	static String POST = "POST";
+	
 
 	@Override
 	public void runner(HttpServletRequest request, HttpServletResponse response) throws Exception {
@@ -91,13 +92,13 @@ public class AuthenticationCases implements CatalystAdvancedIOHandler {
 		try{
 		if(method.equals(POST))
 		{
-			//resetMethod();
+		resetMethod();
 		ZCSignUpData signUpdetails = ZCSignUpData.getInstance();
 		signUpdetails.setPlatformType(PlatformType.WEB);
 		signUpdetails.userDetail.setEmailId("surendhar.v+automation7@zohotest.com");
 		signUpdetails.userDetail.setLastName("LN");
 		signUpdetails.userDetail.setFirstName("FN");
-		signUpdetails.userDetail.setRoleId(1926000004334040L);
+		signUpdetails.userDetail.setRoleId(1926000004334082L);
 		signUpdetails = ZCUser.getInstance().registerUser(signUpdetails);
 		responseData.put("message", "User has been added !");
 		response.setContentType("application/json");
@@ -113,7 +114,7 @@ public class AuthenticationCases implements CatalystAdvancedIOHandler {
 				if(details.get(0).getCreatedTime()==null) {flag=true;responseData.put("alert","getCreatedTime method is returning null");}
 				if(details.get(0).getInvitedTime()==null) {flag=true;responseData.put("alert","getInvitedTime method is returning null");}
 				if(details.get(0).getUserId()==null) {flag=true;responseData.put("alert","getUserId method is returning null");}
-				if((lname.equals("LN"))&&(fname.equals("FN"))&&(mail.equals("surendhar.v+automation7@zohotest.com")&&role==1926000004334040L))
+				if((lname.equals("LN"))&&(fname.equals("FN"))&&(mail.equals("surendhar.v+automation7@zohotest.com")&&role==1926000004334082L))
 				{
 					responseData.put("message", "User added successfully and these details are verified. Case passed ");
 					responseData.put("flag", flag);
@@ -130,6 +131,7 @@ public class AuthenticationCases implements CatalystAdvancedIOHandler {
 					response.setStatus(200);
 					responseData.clear();
 				}
+				resetMethod();
 			}
 		}
 		catch(Exception e)
@@ -156,10 +158,14 @@ public class AuthenticationCases implements CatalystAdvancedIOHandler {
 		Boolean flag=false;
 		JSONObject responseData = new JSONObject();
 		try{
+		resetMethod();
 		ZCSignUpData signUpdetails = ZCSignUpData.getInstance();
 		signUpdetails.setPlatformType(PlatformType.WEB);
 		signUpdetails.userDetail.setEmailId("surendhar.v+automation7@zohotest.com");
 		signUpdetails.userDetail.setLastName("LN");
+		signUpdetails.userDetail.setFirstName("FN");
+		signUpdetails.userDetail.setRoleId(1926000004334082L);
+		signUpdetails = ZCUser.getInstance().registerUser(signUpdetails);
 		ZCUser.getInstance().resetPassword(signUpdetails);
 		responseData.put("message", "Reset password method was called and no exceptions were thrown. Case passed ");
 		responseData.put("flag", flag);
@@ -194,13 +200,13 @@ public class AuthenticationCases implements CatalystAdvancedIOHandler {
 		try{
 		if(method.equals(POST))
 		{
-
+		resetMethod();
 		ZCSignUpData signUpdetails1 = ZCSignUpData.getInstance();
 		signUpdetails1.setPlatformType(PlatformType.WEB);
 		signUpdetails1.userDetail.setEmailId("surendhar.v+automation8@zohotest.com");
 		signUpdetails1.userDetail.setLastName("LName");
 		signUpdetails1.userDetail.setFirstName("FName");
-		signUpdetails1.userDetail.setOrgId(1010342414L);
+		signUpdetails1.userDetail.setOrgId(1022580685L);
 		//signUpdetails1.userDetail.setZaaid(1005141790L);
 		signUpdetails1 = ZCUser.getInstance().addUser(signUpdetails1);
 		responseData.put("message", "User has been added !");
@@ -240,6 +246,7 @@ public class AuthenticationCases implements CatalystAdvancedIOHandler {
 					response.setStatus(200);
 					responseData.clear();
 				}
+				resetMethod();
 			}
 		}
 		catch(Exception e)
@@ -262,17 +269,25 @@ public class AuthenticationCases implements CatalystAdvancedIOHandler {
 		Boolean flag=false;
 		JSONObject responseData = new JSONObject();
 		try{
+			resetMethod();
+			ZCSignUpData signUpdetails1 = ZCSignUpData.getInstance();
+			signUpdetails1.setPlatformType(PlatformType.WEB);
+			signUpdetails1.userDetail.setEmailId("surendhar.v+automation8@zohotest.com");
+			signUpdetails1.userDetail.setLastName("LName");
+			signUpdetails1.userDetail.setFirstName("FName");
+			signUpdetails1.userDetail.setOrgId(1022580685L);
+			//signUpdetails1.userDetail.setZaaid(1005141790L);
+			signUpdetails1 = ZCUser.getInstance().addUser(signUpdetails1);
 		List<ZCUserDetail> details = ZCUser.getInstance().getAllUser();
-		ArrayList<Long> userIdList = new ArrayList<>();
 		for(int itr=0;itr<details.size();itr++) {
-			if(details.get(itr).getUserId()!=1926000004343937L&&details.get(itr).getUserId()!=1926000004343933L) {
+			if(details.get(itr).getUserId()!=1926000008296967L&&details.get(itr).getUserId()!=1926000008296963L) {
 				ZCUser.getInstance().deleteUser(details.get(itr).getUserId());
 			}
 		}
 		details=ZCUser.getInstance().getAllUser();
 		if(details.size()==2)
 		{
-			responseData.put("message", "Two users were deleted as expected. Case passed ");
+			responseData.put("message", "User was deleted as expected. Case passed ");
 			responseData.put("flag", flag);
 		}
 		else {
@@ -302,7 +317,7 @@ public class AuthenticationCases implements CatalystAdvancedIOHandler {
 		try {
 			List<ZCUserDetail> details = ZCUser.getInstance().getAllUser();
 			for(int itr=0;itr<details.size();itr++) {
-				if(details.get(itr).getUserId()!=1926000004343937L&&details.get(itr).getUserId()!=1926000004343933L) {
+				if(details.get(itr).getUserId()!=1926000008296967L&&details.get(itr).getUserId()!=1926000008296963L) {
 					ZCUser.getInstance().deleteUser(details.get(itr).getUserId());
 				}
 			}

@@ -23,6 +23,7 @@ public class CacheCases implements CatalystAdvancedIOHandler {
 	static String GET = "GET";
 	static String POST = "POST";
 	static long segmentId=1926000004343628L;
+	static String segmentCreatedTime="Mon Feb 13 09:49:00 GMT 2023";
 	@Override
     public void runner(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		JSONObject jsonObject = new JSONObject();
@@ -310,10 +311,10 @@ public class CacheCases implements CatalystAdvancedIOHandler {
 					String createdTime= segment.getCreatedTime().toString(); 
 					long id = segment.getSegmentId();
 					String segmentName=segment.getSegmentName();
-					if(!(email.equals("surendhar.v+apinew1@zohotest.com")&&createdTime.equals("Mon Feb 13 09:49:00 GMT 2023")&&id==1926000004343628L&&segmentName.equals("SegmentTest"))){
+					if(!(email.equals("surendhar.v+apinew1@zohotest.com")&&createdTime.equals(segmentCreatedTime)&&id==segmentId&&segmentName.equals("SegmentTest"))){
 						flag=true;
 						LOGGER.log(Level.INFO, "date", segment.getCreatedTime());
-						responseData.put("message","Mismatch in obtained segment details. Expected values : email - surendhar.v+apinew1@zohotest.com , created time - Mon Feb 13 09:49:00 GMT 2023 , segment id - 1926000004343628 , segment name - SegmentTest . Found - "+email+" "+createdTime+" "+id+" "+segmentName);
+						responseData.put("message","Mismatch in obtained segment details. Expected values : email - surendhar.v+apinew1@zohotest.com , created time - "+segmentCreatedTime+" , segment id - "+segmentId+" , segment name - SegmentTest . Found - "+email+" "+createdTime+" "+id+" "+segmentName);
 					}
 					else {
 						responseData.put("message","Details of segment were fetched and verified successfully");

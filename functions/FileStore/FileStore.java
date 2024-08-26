@@ -37,7 +37,9 @@ public class FileStore implements CatalystAdvancedIOHandler {
 	private static final Logger LOGGER = Logger.getLogger(FileStore.class.getName());
 	static String GET = "GET";
 	static String POST = "POST";
-	long  globalFolderId=0;
+	static long  globalFolderId=1926000004343741L;
+	static long globalFileId=1926000004343941L;
+	static String createdByMailId="surendhar.v+apinew1@zohotest.com";
 	String name="";
 	@Override
 	public void runner(HttpServletRequest request, HttpServletResponse response) throws Exception {
@@ -116,7 +118,7 @@ public class FileStore implements CatalystAdvancedIOHandler {
 			List<ZCFolder> folderDetails = fileStore.getFolder();
 			folderName=folderDetails.get(0).getFolderName();
 			createdBy=folderDetails.get(0).getCreatedBy().getEmailId();
-			if(folderName.equals("Folder_Test")&&createdBy.equals("surendhar.v+apinew1@zohotest.com"))
+			if(folderName.equals("Folder_Test")&&createdBy.equals(createdByMailId))
 				{
 					responseData.put("message", "Folder created successfully and the details are verified. Case passed ");
 					responseData.put("flag", flag);
@@ -169,7 +171,7 @@ public class FileStore implements CatalystAdvancedIOHandler {
 			folderDetails = fileStore.getFolder();
 			folderName=folderDetails.get(0).getFolderName();
 			modifiedBy=folderDetails.get(0).getModifiedBy().getEmailId();
-			if(folderName.equals("Updated_FolderName")&&modifiedBy.equals("surendhar.v+apinew1@zohotest.com"))
+			if(folderName.equals("Updated_FolderName")&&modifiedBy.equals(createdByMailId))
 				{
 					responseData.put("message", "Folder edited successfully and the details are verified. Case passed ");
 					responseData.put("flag", flag);
@@ -269,14 +271,14 @@ public class FileStore implements CatalystAdvancedIOHandler {
 		Boolean flag=false;
 		try {
 			ZCFile fileStore = ZCFile.getInstance();
-			ZCFolder folderDetails = fileStore.getFolderInstance(1926000004343741L);
-			ZCFileDetail fileDetail=folderDetails.getFile(1926000004343941L);
+			ZCFolder folderDetails = fileStore.getFolderInstance(globalFolderId);
+			ZCFileDetail fileDetail=folderDetails.getFile(globalFileId);
 			String fileName=fileDetail.getFileName();
 			String createdBy=fileDetail.getCreatedBy().getEmailId();
 			long fileSize=fileDetail.getFileSize();
 			LOGGER.log(Level.INFO, Long.toString(fileSize));
-			if(!(fileName.equals("Test.docx")&&createdBy.equals("surendhar.v+apinew1@zohotest.com")&&fileSize==3531L)){
-			responseData.put("message","While verifying file details, expected file name - Test.docx , created by email - surendhar.v+apinew1@zohotest.com , File size - 3531 bytes . Found - "+fileName+" , "+createdBy+" and "+fileSize+" bytes");
+			if(!(fileName.equals("Test.docx")&&createdBy.equals(createdByMailId)&&fileSize==3531L)){
+			responseData.put("message","While verifying file details, expected file name - Test.docx , created by email - "+createdByMailId+" , File size - 3531 bytes . Found - "+fileName+" , "+createdBy+" and "+fileSize+" bytes");
 			flag=true;
 			}
 			else {
@@ -323,8 +325,8 @@ public class FileStore implements CatalystAdvancedIOHandler {
 		Boolean flag=false;
 		try {
 			ZCFile fileStore = ZCFile.getInstance();
-			ZCFolder folder = fileStore.getFolderInstance(1926000004343741L);
-			InputStream is = folder.downloadFile(1926000004343941L);
+			ZCFolder folder = fileStore.getFolderInstance(globalFolderId);
+			InputStream is = folder.downloadFile(globalFileId);
 			responseData.put("message","No exception was thrown during downloadFile . Case passed.");
 			responseData.put("flag", flag);
 			response.setContentType("application/json");
@@ -371,7 +373,7 @@ public class FileStore implements CatalystAdvancedIOHandler {
 			ZCFile fileStore = ZCFile.getInstance();
 			List<ZCFolder> folderDetails = fileStore.getFolder();
 			for(int itr=0;itr<folderDetails.size();itr++) {
-				if(!folderDetails.get(itr).getFolderId().equals(1926000004343741L)) {
+				if(!folderDetails.get(itr).getFolderId().equals(globalFolderId)) {
 				folderId=folderDetails.get(itr).getFolderId();
 				fileStore.deleteFolder(folderId);
 				}
@@ -421,7 +423,7 @@ public class FileStore implements CatalystAdvancedIOHandler {
 			ZCFile fileStore = ZCFile.getInstance();
 			List<ZCFolder> folderDetails = fileStore.getFolder();
 			for(int itr=0;itr<folderDetails.size();itr++) {
-				if(folderDetails.get(itr).getFolderId()!=1926000004343741L) {
+				if(folderDetails.get(itr).getFolderId()!=globalFolderId) {
 				fileStore.deleteFolder(folderDetails.get(itr).getFolderId());
 				LOGGER.log(Level.INFO,folderDetails.get(itr).getFolderId().toString());
 				}

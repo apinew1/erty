@@ -19,6 +19,8 @@ public class FunctionCases implements CatalystAdvancedIOHandler {
 	static String GET = "GET";
 	static String POST = "POST";	
 	private static String TABLENAME = "TestTable";
+	static Long functionId=1926000004343685L;
+	static Long segmentId=1926000004334061L;
 	@Override
     public void runner(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		JSONObject jsonObject = new JSONObject();
@@ -67,10 +69,10 @@ public class FunctionCases implements CatalystAdvancedIOHandler {
 		try {
 			JSONObject jsonobj = new JSONObject();
 			jsonobj.put("name", "Function Name");
-			Object result = ZCatalystFunction.getInstance().getFunctionInstance(1926000004343685L).executeFunction(jsonobj);
+			Object result = ZCatalystFunction.getInstance().getFunctionInstance(functionId).executeFunction(jsonobj);
 			Thread.sleep(3000);
 			ZCCache cacheobj=ZCCache.getInstance();
-			ZCSegment segment = cacheobj.getSegment(1926000004334061L);
+			ZCSegment segment = cacheobj.getSegment(segmentId);
 			String cacheValue= segment.getCacheValue("Name");
 			if(!cacheValue.equals("Function Name")) {
 				responseData.put("message","Function execution failure. Expected cache value not found in cache segment. Case Failed");

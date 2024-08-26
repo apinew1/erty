@@ -22,7 +22,8 @@ import com.zc.component.circuits.ZCCircuitExecutionStatus;
 
 public class CircuitsCases implements CatalystAdvancedIOHandler {
 	private static final Logger LOGGER = Logger.getLogger(CircuitsCases.class.getName());
-	
+	private static Long circuitId=1926000006804079L;
+	 String staticExecutionId="328d9cbb-5f0a-4a41-97b0-a07f079ae684"; //execute circuit in UI and fill the id here
 	@Override
     public void runner(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		JSONObject jsonObject = new JSONObject();
@@ -71,7 +72,7 @@ public class CircuitsCases implements CatalystAdvancedIOHandler {
 		String status="";
 		Date currentDate = new Date();
 		try {
-			ZCCircuitDetails userBackupCircuit = ZCCircuit.getInstance().getCircuitInstance(1926000006804079L); 
+			ZCCircuitDetails userBackupCircuit = ZCCircuit.getInstance().getCircuitInstance(circuitId); 
 			JSONObject execInputJson = new JSONObject();
 			ZCCircuitExecutionDetails circuitExecution = userBackupCircuit.execute("Case"+currentDate.getTime(),execInputJson); 
 			String executionId=circuitExecution.getExecutionId();
@@ -117,7 +118,7 @@ public class CircuitsCases implements CatalystAdvancedIOHandler {
 		String status="";
 		Date currentDate = new Date();
 		try {
-			ZCCircuitDetails userBackupCircuit = ZCCircuit.getInstance().getCircuitInstance(1926000006804079L); 
+			ZCCircuitDetails userBackupCircuit = ZCCircuit.getInstance().getCircuitInstance(circuitId); 
 			JSONObject execInputJson = new JSONObject();
 			ZCCircuitExecutionDetails circuitExecution = userBackupCircuit.execute("Case"+currentDate.getTime(),execInputJson); 
 			String executionId=circuitExecution.getExecutionId();
@@ -125,7 +126,7 @@ public class CircuitsCases implements CatalystAdvancedIOHandler {
 			
 			userBackupCircuit.abortExecution(executionId);
 			for(int itr=0;itr<20;itr++) {
-				execDetails = userBackupCircuit.getExecutionDetails(executionId);
+				execDetails = userBackupCircuit.getExecutionDetails(staticExecutionId);
 				if(execDetails.getStatus().getExecutionStatus(executionId)!=null&&execDetails.getStatus().toString().equals("RUNNING")) {
 					Thread.sleep(500);
 				}
@@ -133,7 +134,7 @@ public class CircuitsCases implements CatalystAdvancedIOHandler {
 					break;
 				}
 			}
-			ZCCircuitExecutionDetails newExecDetails = userBackupCircuit.getExecutionDetails("328d9cbb-5f0a-4a41-97b0-a07f079ae684");
+			ZCCircuitExecutionDetails newExecDetails = userBackupCircuit.getExecutionDetails(executionId);
 			status=newExecDetails.getStatus().toString();
 			if(!status.equals("ABORTED")) 
 			{ 
@@ -170,7 +171,7 @@ public class CircuitsCases implements CatalystAdvancedIOHandler {
 		Date currentDate = new Date();
 		JSONObject inputVal=new JSONObject();
 		try {
-			ZCCircuitDetails userBackupCircuit = ZCCircuit.getInstance().getCircuitInstance(1926000006804079L); 
+			ZCCircuitDetails userBackupCircuit = ZCCircuit.getInstance().getCircuitInstance(circuitId); 
 			JSONObject execInputJson = new JSONObject();
 			execInputJson.put("testKey", "testVal");
 			ZCCircuitExecutionDetails circuitExecution = userBackupCircuit.execute("Case"+currentDate.getTime(),execInputJson); 
